@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $generalFont;
+    font-size: 10px;
+}
+
+.pl-30{
+    padding-left: 30px;
+}
+
+.pr-30{
+    padding-right: 30px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

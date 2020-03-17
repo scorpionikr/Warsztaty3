@@ -1,0 +1,15 @@
+.hello{
+  flex-direction: row;
+}
+
+.hello{
+   &__text{
+    width: 50%;
+    text-align: initial;
+   }
+}
+
+.btn {
+  padding: 15px 30px;
+    flex-direction: row;
+}

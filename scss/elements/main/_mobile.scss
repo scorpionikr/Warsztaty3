@@ -1,0 +1,23 @@
+.hello{
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;    
+    &__text{
+        margin-bottom: 30px;
+        text-align: center;
+        h1{
+            font-size: 4rem;
+            font-weight: 800;
+        }
+        p {
+            font-size: 3rem;
+        }
+    }
+    &__buttons{
+        display: flex;        
+        flex-direction: column;
+    }
+}

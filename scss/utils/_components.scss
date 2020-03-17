@@ -1,0 +1,32 @@
+.btn{
+    padding: 15px;
+    font-size: 2rem;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    cursor: pointer;
+    &:first-child {
+        background-color: $borderColor;
+        color: white;
+    }
+    > i{
+        margin: 0 10px;
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+    &:hover:first-child {
+        background-color: lighten($borderColor, 5%);
+    }
+}
+
+.visible {
+    display: block;
+}
+
+.unvisible {
+    display: none;
+}

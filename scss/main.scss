@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600i&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+
+@import './utils/vars';
+@import './utils/reset';
+@import './utils/components';
+
+//navigacja
+
+.list__navigation {
+    @media screen and (min-width: 768px){
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hamburger {
+        display: none;
+    }
+}
+
+// Mobile
+@import './elements/navigation/mobile';
+@import 'elements/main/mobile';
+@import './elements/main/mobile2';
+@import './elements/main/mobile3';
+@import './elements/main/mobile4';
+
+
+//Tablet-portrait
+@media screen and (min-width: 768px){
+    @import './elements/navigation/tablet';
+    @import 'elements/main/tablet';
+    @import './elements/main/tablet2';
+    @import './elements/main/tablet4';
+}
+
+//Tablet-landscape
+@media screen and (min-width: 1024px){
+    @import './elements/main/tablet3';
+    @import './elements/main/large4';
+}
+
+//Desktop
+@media screen and (min-width: 1280px){
+    @import './elements/navigation/large';
+    @import 'elements/main/large';
+}
+

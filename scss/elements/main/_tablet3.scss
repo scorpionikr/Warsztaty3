@@ -1,0 +1,40 @@
+.section3 {
+  .section3-content {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .section3-1 {
+      width: 70%;
+      button {
+        width: 40%;
+        margin-left: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+
+    .section3-2 {
+      width: 30%;
+
+      h1 {
+        padding: 30px 10px;
+      }
+
+      .section3-pics {
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      button {
+        width: 50%;
+        margin-left: 10px;
+      }
+    }
+
+    hr {
+      display: none;
+    }
+  }
+}
